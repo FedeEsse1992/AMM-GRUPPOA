@@ -10,24 +10,21 @@
     </head>
     <body>
         <!--Form per inserimento nuovo oggetto-->
+        <div>
         <h1>Inserimento nuovo oggetto</h1>
         <form action="form.asp" method="get">
             <label for="nome">Nome dell'oggetto</label>
             <input type="text" name="nome" id="nome" value="Nome">
             <br>
-            <br>
              <label for="url">Url dell'immagine dell'oggetto</label>
             <input type="text" name="url" id="url" value="Url">
-            <br>
             <br>
              <label for="nome">Prezzo dell'oggetto</label>
             <input type="text" name="prezzo" id="prezzo" value="Prezzo">
             <br>
-            <br>
              <label for="descrizione">Descrizione dell'oggetto</label>
              <textarea rows="5" cols="20" name="descrizione" id="descrizione">
              </textarea>
-             <br>
              <br>
              <p>Quanti prodotti desideri vendere?</p>
              <select name="qtà">
@@ -39,10 +36,11 @@
                  <option value="100"> 100 Prodotti</option>
              </select>
         </form>
+        </div>
         <!--Link alle altre pagine-->
-        <div>
+        <nav>
         <p><a href="Descrizione.html">Descrizione</a></p>
         <p><a href="Login.html">Login</a></p>
-        </div>
+        </nav>
     </body>
 </html>
