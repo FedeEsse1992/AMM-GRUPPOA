@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9-apr-2016, 20.50.16
+    Author     : Paola
+*/
+/*definisco caratteristiche body*/
+body{
+    background-color:#ffffff;
+    font-family: 'Palatino Linotype', 'Palatino', 'URW Palladio L';
+    font-size: 20px;
+    color:#000000;
+    text-align: justify;
+    margin-right:15px;
+    margin-left:15px;
+
+}
+/*definisco caratteristiche h1,h2,h3*/
+h1{
+    color:#000000;
+    text-align:center;
+    font-size: 80px;
+}
+h2,h3{
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+}
+/*definisco in che modo devono essere visualizzati i link*/
+a:link{
+    color:#000066; 
+}
+
+a:visite, a:active{
+    color:#cccccc;
+}
+a:hover{
+    color:#333333;
+}
+
+/*definisco le caratteristiche della tabella*/
+table{
+   background-color:#ffffff;
+   border: 2px;
+   border-style: solid;
+   text-align:center;
+   
+}
+/*definisco le caratteristiche per i dati presenti nelle righe della tabella'*/
+#dati{
+    font: "Times New Roman";
+    font-size:20px;
+    height:25px;
+}
+/*definisco le caratteristiche per i dati presenti nell'intestazione della tabella'*/
+#intestazione{
+    font: "arial";
+    font-weight: bold;
+    color:white;
+    font-size: 30px;
+    background-color: #333333;
+    height:150px;
+    
+}
+/*coloro le righe della tabella con due colori diversi alternati. le classi pari e dispari indicano le righe pari e dispari della tabella*/
+.pari{
+    background-color:aliceblue;
+    text-align:center;
+}
+.dispari{
+    background-color:#ffffcc;
+    text-align:center;
+    
+}
+/*definisco gli elementi del form come righe di una tabella*/
+label,input,p,select,textarea{
+    display:table-row;
+}
+/*definisco visualizzazione elenco puntato*/
+ul{
+    list-style-type: square;
+    float:left;
+    
+}
+/*classe inserimento relativa ai form presenti nelle pagine login.html e venditore.html*/
+.inserimento{
+    display:table; /*utilizzo la visualizzazione tabella per allineare i campi*/
+    padding-left:50px; 
+    padding-right:50px;
+    padding-bottom:50px;
+    padding-top:50px;
+    font-weight:bold;
+    font-size:30px;
+    color:#000000;
+    background-image: url('./Immagini/sfondo.jpg');
+}
+/*classe allinea relativa agli elementi div contenenti le coppie(input-label), le textarea e le select*/
+/*definisco come righe di colonna per fare in modo che si trovino una sopra e una sotto (es:label sopra e input sotto)*/
+.allinea{
+    display:table-row;
+}
+
+/* Focus sui campi input e textarea */
+input:focus, textarea:focus {
+  border: 1px solid #FCA800; /*bordo degli elementi*/
+  color: #333333;          
+}
+
+/* posizionamento terzo div("funzionalità dei venditori")*/
+#div3{
+    position:absolute; 
+    top:45%;        
+    background-color:#ffffcc;
+    width:100%;
+}
+/* posizionamento secondo div("cos'è l'e-commerce'")*/
+#div2{
+    position:absolute;
+    top:20%;
+    background-color:#ffffcc;
+    max-width:100%;
+}
+/* posizionamento Quarto div("funzionalità dei clienti")*/
+#div4{
+    position:absolute;
+    top:75%;
+    background-color:#ffffcc;
+    max-width:100%;
+}

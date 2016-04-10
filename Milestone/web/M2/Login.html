@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Login</title>
+        <meta name="keywords" content="Login">
+        <meta name="description" content="Pagina per il login al sito">
+        <meta name="author" content="Federica Stocchino">
+        <link rel ="stylesheet" type ="text/css" href="css1_1.css" media ="screen">
+        <link rel ="stylesheet" media="only screen and (min-width: 1024px)" type ="text/css" href="css2.css">
+    </head>
+    <body>
+        
+        <!--Inserimento dati Login -->
+    <header>
+          <h1 id="login">Login</h1>
+    </header>
+        <div id="content" class="inserimento">
+            <form action="form.asp" method="get">
+                
+                    <div class="allinea">
+                        <label for="mail"> Nome utente</label>
+                        <input type="text" name="mail" id ="mail" value="Indirizzio E-mail" />
+                    </div>
+                    <div class="allinea">
+                        <label for="pass">Password</label>
+                        <input type="password" name="pass" id ="pass" value="Password" />
+                    </div>
+                   <div id="bottone">
+                     <button style="width:150px;" type="submit"> Cancella</button>
+                     <button style="width:150px;" type="submit"> Login</button>
+                    </div>
+                   
+            </form>
+         </div>
+         <div id="sidebar1"></div>
+
+                      <div id="sidebar2"></div>
+         <!--Link alle altre pagine-->
+         <div id="page">
+        <nav>
+            <p><a id="link1" href="Descrizione.html">Descrizione</a></p>
+            <p><a id="link2" href="Venditore.html">Venditore</a></p>
+            <p><a id="link3" href="Cliente.html">Cliente</a></p>
+        </nav>
+         </div>
+        <footer>
+            <p> Pagina Login </p>
+        </footer>
+    </body>
+</html>

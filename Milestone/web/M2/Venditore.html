@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Nuovo oggetto </title>
+       <meta charset="UTF-8">
+        <meta name="keywords" content="Nome, prezzo, descrizione,quantità, url">
+        <meta name="description" content="Pagina di inserimento nuovo oggetto">
+        <meta name="author" content="Federica Stocchino">
+        <link rel ="stylesheet" type ="text/css" href="css1_1.css" media ="screen">
+        <link rel ="stylesheet" media="only screen and (min-width: 1024px)" type ="text/css" href="css2.css">
+    </head>
+    <body>
+        <!--Form per inserimento nuovo oggetto-->
+        <header>
+          <h1 id="login">Inserimento oggetto</h1>
+        </header>
+            <div id="content" class="inserimento">
+                <form  action="form.asp" method="get">
+                    <div  class="allinea">
+                        <label>Nome dell'oggetto</label>
+                        <input type="text" name="nome" id="nome" value="Nome">
+                     </div>
+                    <div  class="allinea">
+                        <label>Url dell'immagine dell'oggetto</label>
+                         <input type="text" name="url" id="url" value="Url">
+                    </div>
+                    <div  class="allinea">
+                         <label>Prezzo dell'oggetto</label>
+                         <input type="text" name="prezzo" id="prezzo" value="Prezzo">
+                    </div>
+                   <div class="allinea">
+                         <label>Descrizione dell'oggetto</label>
+                         <textarea rows="5" cols="40" name="descrizione" id="descrizione">
+                         </textarea>
+                   </div>
+                    <div  class="allinea">
+                        <p>Quanti prodotti desideri vendere?</p>
+                        <select name="qtà">
+                            <option value="5"> 5 Prodotti</option>
+                            <option value="10"> 10 Prodotti</option>
+                            <option value="20"> 20 Prodotti</option>
+                            <option value="30"> 30 Prodotti</option>
+                            <option value="50"> 50 Prodotti</option>
+                            <option value="100"> 100 Prodotti</option>
+                        </select>
+                    </div>
+                   
+                        
+                        
+                    <div id="bottone">
+                         <button style="width:150px;" type="submit"> Cancella</button>
+                         <button style="width:150px;" type="reset"> Inserisci</button>
+                    </div>
+              </form>
+         </div> 
+        <div id="sidebar1"></div>
+         <div id="sidebar2"></div>
+        <!--Link alle altre pagine-->
+        <div id="page">
+            <nav>
+                 <p><a id="link1" href="Descrizione.html">Descrizione</a></p>
+                 <p><a id="link2" href="Login.html">Login</a></p>
+            </nav>
+        </div>
+        <footer>
+            <p> Pagina venditore </p>
+        </footer>
+    </body>
+</html>
