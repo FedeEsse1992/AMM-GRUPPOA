@@ -8,16 +8,20 @@
         <meta name="description" content="Pagina di descrizione dei prodotti">
         <meta name="author" content="Federica Stocchino">
         <link rel ="stylesheet" type ="text/css" href="css1_1.css" media ="screen">
-        <link rel ="stylesheet" media="only screen and (min-width: 1024px)" type ="text/css" href="css2.css">
     </head>
     <body>
         <!--tabella prodotti-->
-       
-           
             <header> 
-                <h1>Tabella prodotti</h1>
+                <h1 id="header">Tabella prodotti</h1>
             </header>
-            <table id="content">  
+        
+            <div id="sidebar1">
+                 <nav>
+                <p><a id="link1" href="Descrizione.html">Descrizione</a></p>
+                <p><a id="link2" href="Login.html">Login</a></p>
+                </nav>
+        </div >
+            <table id="content" >  
                 <tr id="intestazione">
                     <th>Nome</th>
                     <th>Foto descrittiva</th>
@@ -25,7 +29,7 @@
                     <th>Prezzo</th>
                     <th>Carrello</th>
                 </tr>
-                <tr id ="dati" class="dispari" >
+                <tr class="dispari" >
                     <td >Girocollo Aurora</td>
                     <td> <img title ='Collana' alt ='Foto di Collana Aurora' 
                          src="./Immagini/1_Girocollo.jpg" width="150" height="150" >
@@ -69,16 +73,9 @@
                     <td><a href="Cliente.html">Aggiungi al carrello</a></td>
                  </tr>
             </table>
-         <div id="sidebar1"></div>
 
          <div id="sidebar2"></div>
         <!--Link alle altre pagine -->
-        <div id="page">
-        <nav>
-                <p><a id="link1" href="Descrizione.html">Descrizione</a></p>
-                <p><a id="link2" href="Login.html">Login</a></p>
-        </nav>
-        </div>
        <footer>
             <p> Pagina Cliente </p>
         </footer>
